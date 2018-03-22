@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seoulite999</title>
+ <link type="text/css" rel="stylesheet" href="main.css">
+ <style type="text/css">
+ 	#profileBox {
+ 		margin-left: 8%;
+ 		margin-top: 11%;
+ 		margin-right: 8%;
+ 	}
+ 	#profileBox div {
+ 		display: inline-block;
+ 	}
+ 	#profilePic {
+ 		text-align: left;
+ 		width: 30%;
+ 		vertical-align: top;
+ 	}
+ 	#profileDesBox {
+ 		width: 65%;
+ 		margin-left: 1.5%;
+ 	}
+ 	#profilePic img {
+ 		width: 100%;
+ 	}
+ 	#profileDes {
+ 		width: 90%;
+ 		text-align: left;
+ 		font-size: 1.3em;
+ 	}
+ 	#profliePics img {
+ 		width: 95%;
+ 		height: auto;
+ 	}
+ 	#myTravelDesBox {
+ 		margin-left: 10%;
+ 		width: 65%;
+ 	}
+ 	#myTravelDes {
+ 		text-align: left;
+ 		font-size: 1.3em;
+ 	}
+ </style>
+ <script type="text/javascript">
+ 	function show() {
+ 		document.getElementById("bookPic").src="bookIcon2.png";
+ 	}
+ 	function back() {
+ 		document.getElementById("bookPic").src="bookIcon.png";	
+ 	}
+ </script>
+</head>
+<body>
+	<header class="top">
+		<!-- soeulite999 로고 -->
+		<a id="logo" href="home.html"><img src="logo2.png"></a>
+	</header>
+	<nav class="top">
+		<!-- 소개/상품/연락 -->
+		<a class="navFont" href="intro.html"><img src="fontIntro.png"></a>
+		<a class="navFont" href="travel.html"><img src="fontTravel.png"></a>
+		<a class="navFont" href="contact.html"><img src="fontContact.png"></a>
+	</nav>
+	<aside class="top">
+		<!-- 신청하기-->
+			<a id="bookIcon" href="https://goo.gl/forms/XRxaO6nhctF0pTk83" target="_blank">
+				<img id="bookPic" src="bookIcon.png" onmouseover="show()" onmouseout="back()">
+			</a>
+	</aside>
+	<section>
+		<!-- INTRO profile pic & describe -->
+		<div id="profileBox">
+			<div id="profilePic"> <!-- profile 사진-->
+				<img src="profilePic.png">
+			</div>
+			<div id="profileDesBox">
+				<span id="profileDes"> <!-- 소개 -->
+					<p>
+					Hello! 
+					<p>
+					I am YeGyeong Lee who runs SEOULITE999. <br>
+					You can call it YG or Lee easily. <br>
+					I was born in 1990 and lived in Seoul for over 20 years. <br>
+					So I know Seoul better than anyone! <br>
+					I live in Seoul with my beloved husband and cute puppy now. <p>
+
+					I love traveling. <br> 
+					I enjoy the complex city and also love the beautiful nature. <br>
+					I traveled many countries and made many memories. <br>
+					However, I was discriminated against because of language and race. <br>
+					It can be ignored, but it can also hurt in a pleasant trip. <p>
+
+					I don't want you to be discriminated against when you come to Seoul.
+				</span><p>
+				<span id="profliePics"> <!-- 내 사진들 -->
+					<img src="profilePics.png">
+				</span>
+			</div>
+		</div>
+		<!-- INTRO my travel describe -->
+		<div id="myTravelDesBox">
+			<div id="myTravelDes">
+				<h1 style="margin-bottom: 0.2%;">SAFE TRIP</h1>
+				* Safety is the most important thing in travel. <br>
+				* I will be with you so that you will not be discriminated wherever you go. <br>
+				* I will help you not get lost or be scammed in Seoul. <br>
+				* I will help especially women and family to enjoy Seoul safely. <br>
+
+				<h1 style="margin-bottom: 0.2%;">ECONOMICAL TRIP</h1>
+				* Reduce unnecessary expenses. <br>
+				* You can save money and time with a shortcut and free transfer. <br>
+				* You can get discounts for locals. <br>
+				* You can see that when you buy something, it is a reasonable price compared to the local price. <br>
+
+				<h1 style="margin-bottom: 0.2%;">PLEASANT TRIP</h1>
+				* I will do my best to make you have a great Seoul trip. <br>
+				* I will find you a Seoul restaurant that only locals know. <br>
+				* You will enjoy Seoul with your Seoul friends, not boring explanation guides. <br>
+				<p></p>
+				<h1 style="margin-top: 5%; margin-bottom: 15%; font-style: italic;">PLEASE BE MY FRIEND!</h1>
+			</div>
+		</div>
+		
+	</section>
+	<footer>
+		<!-- 연락처 -->
+			<table>
+				<caption style="text-align: left;"><h2>CONTACT INFO</h2></caption>
+				<tr><th><img src="smileIcon.png"></th>
+					<td>YeGyeong Lee (YG.Lee)</td>
+					<th><img src="locIcon.png"></th>
+					<td>403, Sangdo-ro 207, Dongjak-gu, Seoul, SouthKorea</td>
+				</tr>
+				<tr><th><img src="mailIcon.png"></th>
+					<td>k.janey94@gmail.com</td>
+					<th><a href="https://www.instagram.com/seoulite999" target="_blank">
+						<img src="instaIcon.png"></a></th>
+					<td><a href="https://www.instagram.com/seoulite999" target="_blank">instagram.com/seoulite999</a></td>
+				</tr>
+				<tr><th><img src="callIcon.png"></th>
+					<td>+82)10-4821-5521</td>
+					<th><a href="https://www.facebook.com/seoulite999" target="_blank">
+							<img src="fbIcon.png"></a></th>
+					<td><a href="https://www.facebook.com/seoulite999" target="_blank">facebook.com/seoulite999</a></td>
+				</tr>
+			</table>
+	</footer>
+</body>
+</html>

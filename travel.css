@@ -1,0 +1,112 @@
+article {
+ 		text-align: left;
+ 	}
+ 	article span {
+ 		margin-left: 2%;
+ 		font-size: 1.3em;
+ 	}
+ 	article h2 {
+ 		margin-top: 2%;
+ 		margin-left: 2%;
+ 		margin-right: 2%;
+ 		font-size: 2.3em;
+ 		font-family: impact;
+ 		font-weight: 500;
+ 	}
+ 	section nav {
+ 		width: 100%;
+ 		text-align: left;
+ 		background-color: #f19733;
+ 	}
+ 	section nav a {
+ 		position: relative;
+ 		top: 30%;
+ 		margin: 5%;
+ 		font-size: 2.3em;
+ 		font-family: impact;
+ 		font-weight: 500;
+ 	}
+ 	.threeTravel {
+ 		margin-bottom: 10%;
+ 	}
+ 	.shortDes {
+ 		width: 100%;
+ 		margin-left: 2%;
+ 		font-size: 1.3em;
+ 		margin-top: 0;
+ 	}
+ 	#toon img {
+ 		display: inline-block;
+ 		width: 220px;
+ 		margin-top: 3%;
+ 		margin-left: 4%;
+		
+	}
+	#wishiListDes {
+		margin-top: 3%;
+	}
+	#wishiListDes span {
+		display: inline-block;
+	}
+	#wishiListDesFirst {
+		width: 60%;
+		border-right: 1px dotted black;
+		padding-right: 1%;
+	}
+	#wishiListDesSecond {
+		width: 30%; 
+		vertical-align: top;
+	}
+	#shoppingDes {
+		margin-top: 3%;
+	}
+	#shoppingDes span {
+		display: inline-block;
+	}
+	#shoppingDesFirst {
+		width: 60%;
+		border-right: 1px dotted black;
+		padding-right: 1%;	
+	}
+	#shoppingDesSecond {
+		width: 30%; 
+		vertical-align: top;	
+	}
+	#hikingDes {
+		margin-top: 3%;
+	}
+	#hikingDes span {
+		display: inline-block;
+	}
+	#hikingDesFirst {
+		width: 60%;
+		border-right: 1px dotted black;
+		padding-right: 1%;	
+	}
+	#hikingDesSecond {
+		width: 30%; 
+		vertical-align: top;	
+	}
+	#shoppingPic {
+		text-align: center;
+	}
+	#shoppingPic img {
+		width: 80%;
+		height: auto;
+		margin: 2%;
+	}
+	#hikingMap {
+		text-align: center;
+	}
+	#hikingMap img {
+		width: 70%;
+		height: auto;
+		margin: 2%;
+	}
+	.goTop {
+		float: right;
+		margin-right: 0.5%;
+	}
+	.goTop img {
+		width: 60%;
+	}
