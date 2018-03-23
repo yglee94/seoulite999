@@ -1,21 +1,11 @@
-body {
+	body {
  		margin-left: 10%;	
  		margin-right: 5%;
- 	}
- 	header {
- 		width: 20%;
- 		height: 100px;
- 	}
- 	nav {
- 		width: 55%;
- 		height: 100px;
- 		text-align: center;
  	}
  	aside {
  		width: 15%;
  		height: 100px;
  		text-align: center;
- /*		border: 1px solid black;*/
  	}
  	section {
  		margin : 10px;
@@ -34,33 +24,6 @@ body {
  		padding-top: 1.5%;
  		padding-bottom: 3%;
  		border: 1px dotted black;
- 	}
- 	 	.top {
- 		display: inline-block;
- 		margin : 10px;
- 	}
- 	#logo img{
- 		width: auto;
- 		height: 100%;
- 		position: relative;
- 		top : 65%;
- 		margin-left: 20%;
- 	}
- 	.navFont img {
- 		width: auto;
- 		height: 50%;
- 		position: relative;
- 		margin-left: 30px;
- 		margin-right: 30px;
- 		margin-top: 2%;
- 		top : 50%;
- 	}
- 	#bookIcon img {
- 		width: auto;
- 		height: 90%;
- 		position: relative;
- 		top : 50%;
- 		margin-right: 30%;
  	}
  	#homeWishList {
  		position: relative;
@@ -108,4 +71,52 @@ body {
  	a:hover {
  		text-decoration: none;
  		color: black;
+ 	}
+
+ 	/*add css at header*/
+
+ 	 #headerBox {
+ 		text-align: center;
+ 		margin-top: 8%;
+ 	}
+ 	#headerBox div {
+ 		display: inline-block;
+ 	}
+ 	#headerNav span {
+ 		display: inline-block;
+ 	}
+ 	#headerLogo {
+ 		width: 25%;
+ 		text-align: center;
+ 		vertical-align: middle;
+ 	}
+ 	#headerLogo img {
+ 		width: 85%;
+ 	}
+ 	#headerNav {
+ 		width: 40%;
+ 		text-align: center;
+ 		vertical-align: middle;
+ 	}
+ 	#headerNav img {
+ 		width: 70%;
+ 		margin-top: 4%;
+ 	}
+ 	#headerBook {
+ 		width: 25%;
+ 		text-align: center;
+ 		vertical-align: middle;
+ 		margin-left: 2%;
+ 	}
+ 	#headerBook img {
+ 		width: 75%;
+ 	}
+ 	#nav1 {
+ 		width: 65%;
+ 	}
+ 	#nav2 {
+ 		width: 80%;
+ 	}
+ 	#nav3 {
+ 		width: 98%;
  	}
