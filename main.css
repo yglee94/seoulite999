@@ -84,6 +84,7 @@
  	}
  	#headerNav span {
  		display: inline-block;
+ 		margin-bottom: 5%;
  	}
  	#headerLogo {
  		width: 25%;
