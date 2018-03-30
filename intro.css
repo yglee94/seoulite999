@@ -1,0 +1,55 @@
+	#profileBox {
+ 		margin-left: 8%;
+ 		margin-top: 11%;
+ 		margin-right: 8%;
+ 	}
+ 	#profileBox div {
+ 		display: inline-block;
+ 	}
+ 	#profilePic {
+ 		text-align: left;
+ 		width: 30%;
+ 		vertical-align: top;
+ 	}
+ 	#profileDesBox {
+ 		width: 65%;
+ 		margin-left: 1.5%;
+ 	}
+ 	#profilePic img {
+ 		width: 100%;
+ 	}
+ 	#profileDes {
+ 		width: 90%;
+ 		text-align: left;
+ 		font-size: 1.3em;
+ 		line-height: 160%;
+ 	}
+ 	#profliePics img {
+ 		width: 95%;
+ 		height: auto;
+ 	}
+ 	#myTravelDesBox {
+ 		margin-left: 10%;
+ 		width: 100%;
+ 	}
+ 	#myTravelDes {
+ 		text-align: left;
+ 		font-size: 1.2em;
+ 	}
+ 	#myTravelDes img {
+ 		width: 100%;
+ 	}
+ 	.ThreeTravelDes span {
+ 		display: inline-block;
+ 	}
+ 	.TravelDes {
+ 		width: 85%;
+ 		margin-bottom: 5%;
+ 		line-height: 220%;
+ 	}
+ 	.TravelDes img {
+ 		margin-right: 2%;
+ 	}
+ 	.TravelDes h1 {
+ 		margin-bottom: 2%;
+ 	}
