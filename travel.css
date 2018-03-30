@@ -15,6 +15,7 @@ article {
  	}
  	section nav {
  		width: 100%;
+ 		height: 100%;
  		text-align: left;
  		background-color: #f19733;
  	}
@@ -22,17 +23,16 @@ article {
  		position: relative;
  		top: 30%;
  		margin: 5%;
- 		font-size: 2.3em;
+ 		font-size: 2.1em;
  		font-family: impact;
  		font-weight: 500;
  	}
  	.threeTravel {
- 		margin-bottom: 10%;
+ 		margin-bottom: 25%;
  	}
  	.shortDes {
- 		width: 100%;
  		margin-left: 2%;
- 		font-size: 1.3em;
+ 		font-size: 80%;
  		margin-top: 0;
  	}
  	#toon img {
